@@ -1,0 +1,155 @@
+/* This Project created by Rahul Jaiswar.
+Linkedin: https://www.linkedin.com/in/rjrahul93
+GitHub: https://github.com/rjrahul93
+EMail: rjrahul9322@gmail.com  */
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)),
+                url(./images/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    
+    background-size: 100%;
+
+    /* background-color: black; */
+   
+
+}
+
+#left img{
+    width: 200px;
+    padding: 30px 10%;
+
+}
+
+#Login{
+    background-color: rgba(0, 0, 0, 0.543);
+    width: 35%;
+    margin: auto;
+    color: white;
+    padding: 0;
+  
+}
+
+form{
+   
+    padding: 50px;
+   
+}
+
+#Login #submit{
+
+     text-align: center;
+}
+
+#email input, #password input{
+
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(128, 128, 128, 0.539);
+    border: none;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+#submit button{
+    width: 104%;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 1.5rem;
+}
+
+#Login h2{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 2.3rem;
+
+}
+
+#check{
+    display: flex;
+    justify-content: space-between;
+    padding:  5px 0px;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+#check a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+#sing{
+   
+}
+
+#sing ul{
+    display: flex;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.705);
+   
+    padding: 0px 0px;
+}
+
+#sing a{
+    color: white;
+    text-decoration: none;
+}
+
+#blue a{
+    color: blue;
+}
+
+#blue a:hover, #sing  a:hover, #check a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    
+    color: white;
+    padding: 42px 0px;
+    margin: auto;
+    /* padding-left: 170px; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 0;
+   
+
+}
+
+
+
+
+footer #link{
+    display: flex;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+footer a{
+    color: rgba(255, 255, 255, 0.317);
+   
+}
+
+footer li{
+    padding-bottom: 18px;
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.317);
+}
+

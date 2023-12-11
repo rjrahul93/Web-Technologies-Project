@@ -1,0 +1,490 @@
+/* This Project created by Rahul Jaiswar.
+Linkedin: https://www.linkedin.com/in/rjrahul93
+GitHub: https://github.com/rjrahul93
+EMail: rjrahul9322@gmail.com  */
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)),
+                url(./images/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+                
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+   
+
+}
+
+#left img{
+    width: 200px;
+
+}
+
+#left{
+    display: flex;
+    
+   
+}
+#right{
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+#right #lang{
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    
+}
+
+/* #right #sing{
+    background-color: red;
+    color: white;
+    width: 85px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+
+} */
+
+
+
+#sing a{
+    text-decoration: none;
+}
+
+#sing{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#right #sing button{
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#right #sing:hover button{
+    background-color: rgba(255, 0, 0, 0.726);
+    font-weight: 200;
+
+}
+
+#Email{
+    
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+   
+}
+
+#Email h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom: 30px;
+    
+}
+
+#Email p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#Email #join{
+    font-size: 2rem;
+    margin: 0;
+}
+
+#Email #emailInput
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+#emailInput input{
+    width: 350px;
+    height: 50px;
+    border: 2px solid gray;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.943);
+    padding-left: 10px;
+    font-size: 1rem;
+   
+
+}
+
+#emailInput button{
+
+   width: 200px;
+   height: 50px;
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 1.5rem;
+   font-weight: 500;
+   
+
+}
+
+#emailInput button:hover{
+    background-color: rgba(255, 0, 0, 0.726);
+}
+
+
+#tv{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 40px 100px;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.74);
+    border-top: 5px solid rgba(128, 128, 128, 0.74);;
+}
+
+#tv #left{
+    color: white;
+    display: inline;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+#right img{
+    
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+#tv #right{
+    margin: auto;
+    position: relative;
+    width: 50%;
+   
+
+}
+
+#tv #left h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+    
+}
+
+#tv p{
+    color: white;
+    font-size: 1.8rem;
+    
+}
+
+#tv #right video{
+    position: absolute;
+    left: 67px;
+    width: 74.3%;
+    top: 78px;
+    z-index: 1;
+    
+}
+
+
+
+#mobile{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    /* padding: 70px 200px; */
+    padding: 50px 120px;
+    /* border-bottom: 5px solid rgba(128, 128, 128, 0.74); */
+    
+   
+   
+}
+
+#mobile #left{
+    color: white;
+    display: inline;
+    align-items: center;
+    /* margin: auto; */
+    position: relative;
+    width: 45%;
+    
+}
+
+#mobile #left img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+#mobile #left #Download img{
+    width: 80%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#mobile #right{
+    margin: 0;
+    display: inline;
+    align-items: center;
+    width: 40%;
+
+}
+
+#mobile h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+    
+}
+
+#mobile p{
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+#left #Stranger{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    border-radius: 15px;
+    border: 2px solid gray;
+    position: absolute;
+    left: 99px;
+    top: 240px;
+    width: 245px;
+    background-color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    padding-right: 0;
+}
+
+
+#left #Stranger img{
+    width: 57px;
+    height: 80px;
+}
+
+#left #Stranger h2{
+    font-size: 1rem;
+    margin: 0;
+   
+}
+
+#left #Stranger p{
+    font-size: 0.875rem;
+    margin: 0;
+    color: blue;
+}
+
+#left #Stranger h1{
+    
+    margin: 0;
+    font-size: 2rem;
+}
+
+#left #Download {
+
+    width: 25%;
+
+}
+
+
+#tv #tvright2 video{
+    position: absolute;
+    left: 67px;
+    width: 74.3%;
+    top: 78px;
+    z-index: 1;
+    
+}
+
+#tv #tvright2{
+    margin: auto;
+    position: relative;
+    width: 50%;
+   
+
+}
+
+#tvright2 img{
+    
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+#tv #tvright2 video{
+    position: absolute;
+    left: 100px;
+    width: 61.3%;
+    top: 36px;
+    z-index: 1;
+    
+}
+
+#children{
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: auto;
+    padding: 72px 0px;
+    justify-content: center;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.74);
+
+}
+
+#children #childleft {
+
+    width: 40%;
+    margin: 0;
+}
+
+#childleft img{
+    width: 472px;
+    height: 354px;
+
+}
+
+#childright h1{
+
+    font-size: 52px;
+    margin: 0;
+
+}
+
+#children #childright{
+    width: 40%;
+    margin: 0;
+}
+
+#childright p{
+    color: white;
+    font-size: 1.7rem;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+
+#FAQ{
+
+    background-color: black;
+    display: block;
+    color: white;
+    align-items: center;
+    margin: auto;
+    padding: 72px 0px;
+    justify-content: center;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.74);
+
+}
+
+#FAQ #faq{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+#faq h1{
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+#faq p{
+    font-size: 1.5rem;
+}
+
+#FAQ #emailInput{
+    text-align: center;
+    list-style-type: none;
+  
+}
+
+
+#footer{
+    color: white;
+    padding: 42px 0px;
+    margin: auto;
+    /* padding-left: 170px; */
+    width: 80%;
+}
+
+footer #link{
+    display: flex;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+footer a{
+    color: rgba(255, 255, 255, 0.614);
+   
+}
+
+footer li{
+    padding-bottom: 18px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.614);
+}
+
+
+/* Mobile version */
+
+@media (max-width:600px){
+
+    #tv{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        
+        border-bottom: 5px solid rgba(128, 128, 128, 0.74);
+        border-top: 5px solid rgba(128, 128, 128, 0.74);;
+    }
+    
+
+}
