@@ -1,0 +1,535 @@
+/* This Project created by Rahul Jaiswar.
+Linkedin: https://www.linkedin.com/in/rjrahul93
+GitHub: https://github.com/rjrahul93
+EMail: rjrahul9322@gmail.com  */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+    
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1.5%;
+   
+}
+
+#mobileMenu{
+    display: none;
+}
+
+#left h1{
+
+    font-size: 1rem; 
+   /* 1rem equal to 16px */
+   color: white;
+}
+
+#left h1 span{
+ 
+    font-weight: 100;
+
+}
+
+#right #cont{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+}
+
+#cont a{
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: white;
+}
+
+#right #cont button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+#menu{
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 0; 
+    padding: 0;
+    width: 150%;
+    display: none;
+    border-radius: 10px;
+}
+
+#drop{
+    position: relative;
+}
+
+#drop:hover #menu{
+    display: block;
+}
+
+#menu a{
+    color: black;
+    border-bottom: 2px solid gray;
+    
+}
+
+#menu a:hover{
+    color: white;
+    background-color: rgb(248, 117, 70);
+}
+
+#sMenu{
+    list-style-type: none;
+    width: 150%;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    padding: 0;
+    background-color: white;
+    display: none;
+    border-radius: 10px;
+}
+
+#subMenu
+{
+    position: relative;
+}
+
+#subMenu:hover #sMenu{
+    display: block;
+}
+
+#alpha{
+    /* display: flex;
+    justify-content: center; */
+    
+    text-align: center;
+    margin-top: 6rem;
+
+}
+
+#alpha h1{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+#alpha p{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#alpha button{
+
+    width: 10%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    color: gray;
+    margin-right: 1rem;
+
+}
+
+#alpha #learn {
+
+    background-color: transparent;
+    border: 2px solid rgb(212, 204, 204);
+    color: white;
+}
+
+#mobile{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2rem;
+    margin-top: 50px ;
+    color: rgb(50, 88, 88);
+}
+
+#mobile h1{
+
+    font-size: 2rem;
+}
+
+#mobile p{
+    font-size: 1.2rem;
+    border-top: 2px solid rgb(208, 202, 202);
+    width: 70%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: rgb(212, 209, 209);
+}
+
+#mobile img{
+    width: 100%;
+}
+
+#icon{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+
+}
+
+#icon div{
+    width: 46%;
+    display: inline-block;
+    text-align: center;
+    padding-top : 2rem;
+}
+
+.fa-bolt-lightning{
+    color: white;
+    background-color: #e89980;
+    font-size: 2.2rem;
+    border-radius: 55%;
+    padding: 1.8rem 2rem;
+   
+}
+
+.fa-chart-area{
+    color: white;
+    background-color: #7fcdb8;
+    font-size: 2.2rem;
+    border-radius: 55%;
+    padding: 1.8rem 2rem;
+   
+}
+
+.fa-cloud{
+    color: white;
+    background-color: #90b0ba;
+    font-size: 2.2rem;
+    border-radius: 55%;
+    padding: 31px 28px;
+   
+}
+
+.fa-lock{
+    color: white;
+    background-color: #e5cb95;
+    font-size: 2.2rem;
+    border-radius: 55%;
+    padding: 1.8rem 2rem;
+   
+}
+
+#lightning{
+    border-right: 2PX solid #e5e5e5;
+    border-bottom: 2PX solid #e5e5e5;
+    position: relative;
+    top: 4.5px;
+    left: 4px;
+
+}
+
+#lock{
+    border-top: 2PX solid #e5e5e5;
+    border-left: 2PX solid #e5e5e5;
+
+}
+
+#card{
+    
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between; 
+}
+
+#card button{
+    width: 128px;
+    height: 40px;
+    border-radius: 5px;
+    color: #e89980;
+    font-size: 1rem;
+}
+
+#card div{
+    
+    justify-content: center;
+    background-color: white;
+    width: 48%;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+
+    
+}
+
+#card div img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#signup{
+    background-color: #e89980;
+    text-align: center;
+  
+    color: #f9e6df;
+    margin-top: 3rem;
+    padding: 55px 0px;
+    
+}
+
+#signup h2{
+    font-size: 2.25em;
+    font-weight: 300;
+    letter-spacing: -0.035em;
+}
+
+
+
+div input{
+    width: 240px;
+    height: 40px;
+    border: none;
+
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.377);
+   
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+#email{
+    display: flex;
+    justify-content: center;
+}
+#email  button{
+    width: 128px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #e89980;
+    font-size: 1rem;
+}
+
+input::placeholder{
+    color: white;
+}
+
+footer{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    color: #c6c6c6;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   
+
+}
+
+footer ul{
+    list-style-type: none;
+    
+}
+
+footer li{
+    padding-left: 30px;
+}
+
+.fa-brands, .fa-globe, .fa-brands{
+    color: #c6c6c6;
+
+}
+
+.fa-brands:hover, .fa-globe:hover, .fa-brands:hover{
+    color: #a9a4a4;
+
+}
+
+
+
+
+footer #icon{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #c6c6c6;
+    background-color: transparent;
+}
+
+footer #copyrights{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/* Mobile Version */
+
+@media (max-width:600px) {
+
+
+    body{
+
+        background-size: 180%;
+        background-position-x: center;
+    
+    }
+
+    #mobileMenu{
+        display: inline-block;
+        color: white;
+        background-color: rgb(203,197,197);
+        padding: 5px 15px;
+        border: 5px;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    header{
+        display: none;
+    }
+
+    #alpha{
+       width: 90%;
+       margin: auto;
+       margin-top: 0rem;
+    }
+
+    #alpha h1{
+        font-size: 2rem;
+       
+    }
+    
+    #alpha p{
+       
+        font-size: 1.1rem;
+        
+    }
+
+    #alpha button{
+
+        width: 100%;
+        margin-bottom: 0.7rem;
+        
+    
+    }
+
+    #mobile{
+        width: 90%;
+        border-radius: 0px;
+        margin: auto;
+        margin-top: 8rem;
+    }
+
+    #mobile h1{
+        font-size: 1.6rem
+    }
+
+    #mobile p{
+        font-size: 1.1rem;
+        width: 90%;
+        
+    }
+
+    br{
+        display: none;
+    }
+  
+    #icon{
+        background-color: white;
+        width: 90%;
+        margin-top: 1rem;
+        border-radius: 5px;
+        
+    
+    }
+    
+    #icon div{
+       
+       width: 90%;
+       border-bottom: 1px solid gray;
+       padding-left: 40px;
+       margin: auto;
+      
+    }
+
+    #lightning{
+        border-right: none;
+        border-bottom: none;
+        position: relative;
+        top: 4.5px;
+        
+       
+    
+    }
+    
+    #lock{
+        border-top: none;
+        border-left:none;
+    
+    }
+
+
+
+    #card{
+    
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        
+        
+        
+    }
+    
+    #card div{
+        background-color: white;
+        width: 90%;
+        border-radius: 5px;
+        display : inline;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    #signup #email{
+        display: inline-block;
+        justify-content: center;
+    }
+
+  
+    #email  button{
+        width: 180px;
+        margin-top: 10px;
+        
+    }
+
+
+    footer #copyrights{
+        display: inline;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+}
