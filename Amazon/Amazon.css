@@ -1,0 +1,836 @@
+/* This Project created by Rahul Jaiswar.
+Linkedin: https://www.linkedin.com/in/rjrahul93
+GitHub: https://github.com/rjrahul93
+EMail: rjrahul9322@gmail.com  */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e3e6e6;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-size: cover;
+    background-color: #131921;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    
+ 
+}
+
+header #logo img{
+   
+    width: 110px;
+    height: 100%;
+  
+    align-items: center;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+header #logo img:hover{
+    border: 1px solid white;
+ 
+}
+
+header #logo div:hover{
+   
+    border: 1px solid white;
+    
+}
+
+
+header a{
+   
+    
+}
+
+header #logo{
+    display: flex;
+    color: white;
+    width: 315px;
+    
+    align-items: center;
+    height: 100%;
+}
+
+header #logo div{
+    margin: 5px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px;
+    
+}
+
+header #logo #mobileMenu{
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+   
+}
+
+header #logo #mobileMenu2{
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+   
+}
+
+header #searchItem:hover{
+    border: 4px solid orange;
+
+}
+
+
+header #searchItem{
+    
+    display: flex;
+    justify-content: start;
+    height: 60%;
+    width: 525px;
+   
+    color: white;
+    align-items: center;
+    border: 4px solid orange;
+   
+    margin-right: 6px;
+    
+}
+
+header  select option{
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    
+}
+
+#searchItem button{
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 50px;
+    height: 100%;
+    font-size: 1.2rem;
+
+  
+}
+
+#searchItem input{
+    color: black;
+    border: none;
+    width: 422px;
+    height: 100%;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    
+   
+
+}
+
+#searchItem #category{
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 50px;
+    height: 100%;
+    font-size: 1.2rem;
+  
+}
+
+/* header #cart{
+    width: 384px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    width: fit-content;
+    margin-left: 5px;
+    gap: 18px;
+} */
+
+header #cart{
+    width: fit-content;
+    width: 33%;
+    display: flex;
+    color: white;
+    gap: 8px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header #cart div h2,p{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+header #cart #fa-cart .fa-cart-shopping{
+    font-size: 2rem;
+}
+
+header #cart #fa-cart{
+    display: flex;
+}
+
+header #cart #fa-cart p{
+    padding-top: 9px;
+    padding-left: 4px;
+    
+}
+
+header #fa-carts a{
+    color: white;
+    text-decoration: none;
+}
+
+header #cart div {
+   padding: 5px;
+}
+
+header #fa-carts:hover,#fa-cart:hover{
+
+    border: 1px solid white;
+
+}
+
+header #fa-carts #lang{
+    width: 65px;
+    height: 43px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* header end here */
+
+/* subMenu start here */
+
+
+
+/* nav {
+    display: flex;
+    background-color:  rgb(35, 35, 65);
+    margin-top: 60px;
+    height: 45px;
+    color: white;
+    align-items: center;
+    padding: 0px 0px;
+    width: 100%;
+   
+} */
+
+nav #subMenu{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    height: 45px;
+    color: white;
+    background-color:  rgb(35, 35, 65);
+    align-items: center;
+    display: flex;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+   
+}
+
+nav #subMenu a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 10px;
+  
+}
+
+nav #subMenu #golf{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 0px;
+    height: 90%;
+  
+
+}
+
+nav #subMenu a:hover{
+    
+    border: 1px solid white;
+    
+    
+}
+
+nav #mobileSubMenu{
+    display: none;
+}
+
+/* Nav end here */
+
+
+#Product{
+    display: block;
+  
+    margin-bottom: 250px;
+    
+}
+#ProductBanner{
+    width: 100%;
+    display: block;
+    position: relative;
+    
+}
+#ProductBanner img{
+    width: 100%;
+}
+
+/* #productCategory{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 220px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    
+    align-items: center;
+    text-align: center;
+   
+    background-color: red;
+    
+    
+} */
+
+#productCategory{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    position: absolute;
+    top: 270px;
+    margin: auto;
+    
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    
+}
+
+ .sec1 div{
+    
+    display: inline-block;
+    justify-content: center;
+    background-color: white;
+    width: 23%;
+    height: 450px;
+    
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.sec1 #singIn{
+
+    position: relative;
+    margin-top: -170px;
+    height: 250px;
+    padding-top: 30px;
+
+}
+
+.sec1 #singIn button{
+    background-color: #ffd814;
+    width: 80%;
+    margin: auto;
+    color: black;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    
+    
+}
+
+.sec1  div a{
+    
+    display: inline-block;
+    justify-content: space-evenly;
+   
+    width: 45%;
+    height: 137px;
+    align-items: center;
+    overflow: hidden;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px;
+   
+}
+
+.sec1  div a img{
+    width: 100%;
+    height: 80%;
+}
+
+.sec1  #more{
+    display: flex;
+    padding-left: 10px;
+    background-color: transparent;
+    
+    width: fit-content;
+    height: fit-content;
+    color: blue;
+    font-size: 1.2rem;
+}
+
+#more:hover{
+    color: red;
+   
+}
+
+#pro2{
+    margin-bottom: 50px;
+}
+
+.sec1 .singleProduct a{
+    width: 96%;
+    height: 67%;
+    margin: 0;
+    padding: 0;
+}
+/*  */
+#pro3{
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: white;
+    overflow: hidden;
+   
+    
+}
+#single{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ #single a img{
+    width: 190px;
+    height: 200px;
+    display: flex;
+    margin-left: 10px;
+    
+
+}
+
+
+#single a{
+    overflow: hidden;
+    padding: 10px;
+}
+#single a:hover {
+   transition: 3s;
+    scale: 1.2;
+
+
+}
+
+#pro3 h2{
+    padding-left: 28px;
+
+}
+/* temp */
+
+
+
+
+/* temp */
+
+/* footer start here */
+
+
+#footer{
+    
+    display: inline-block;
+    justify-content:center ;
+    padding-top: 10px;
+    background-color: rgb(35, 35, 65);
+    z-index: 1000;
+    width: 100%;
+   
+}
+
+
+
+#footer #cont #up{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+   
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    
+    
+}
+
+/* footer #up{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    color: white;
+    align-items: center;
+} */
+
+#footer #mid{
+
+    width: fit-content;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+#footer #mid #logo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+#footer #mid #logo img{
+    width: 100px;
+}
+
+#footer #mid #country{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    overflow: hidden;
+    
+
+}
+
+#footer #mid #logo #lang{
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul{
+    list-style-type: none;
+    color: white;
+    
+}
+
+#footer li{
+    padding-bottom: 7px;
+}
+
+#footer a{
+    color: rgba(255, 255, 255, 0.824);
+    text-decoration: none;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+
+#footer #down{
+    background-color: black;
+}
+
+#footer #downC{
+   
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 25%;
+}
+
+
+
+#footer #down li{
+    padding: 10px;
+    
+}
+
+#footer #down a{
+    font-size: 15px;
+}
+
+#copyright {
+
+   display: inline;
+    padding-bottom: 10px;
+
+}
+
+#footer #credit{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#footer #copyright #downLast{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+      
+}
+
+
+@media (max-width:600px)
+{
+    header{
+       display: inline;
+       height: fit-content;
+       padding-bottom: 10px;
+    }
+
+    header  #logo{
+     
+       justify-content: space-evenly;
+       width: 100%;
+       overflow: hidden;
+    }
+
+    header #logo div{
+        display: none;
+    }
+
+
+    header #cart{
+       display: none;
+    }
+
+    header #searchItem{
+       
+        width: 90%;
+        overflow: hidden;
+        align-items: center;
+       
+        margin: auto;
+       
+       
+    }
+
+     #searchItem input{
+      
+        
+        width: 95%;
+        height: 100%;
+        font-size: 1.2rem;
+        padding-left: 20px;
+        
+    }
+
+    header #category{
+        display: none;
+    }
+
+
+    header #logo #mobileMenu{
+        
+        display: block;
+        margin-top: 3px;
+        padding: 10px 10px 5px 10px;
+        
+        
+    }
+
+    header #logo #mobileMenu2:hover{
+   
+        border: none;
+        
+    }
+
+    header #logo #mobileMenu a, #mobileMenu2 a{
+        
+        color: white;
+        
+    }
+
+    header #logo #mobileMenu2{
+        width: fit-content;
+        display: block;
+        margin-left: 142px;
+        padding: 10px 10px 5px 10px;
+          
+    }
+
+    header #logo #mobileMenu2 a:hover{
+       
+        border: none;
+        
+    }
+
+    /* Nav */
+
+    nav{
+        width: 100%;
+    }
+    nav #subMenu{
+      display: none;
+       
+         
+    }
+
+    nav #mobileSubMenu{
+        display: block;
+    }
+
+    nav #mobileSubMenu{
+        display: flex;
+        width: 100%;
+        margin-top: 95px;
+        height: 45px;
+        color: white;
+        background-color:  rgb(35, 35, 65);
+        align-items: center;
+        display: flex;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+       
+    }
+    
+    nav #mobileSubMenu a{
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 10px;
+      
+    }
+
+    nav #mobileSubMenu a:hover{
+    
+        border: 1px solid white;
+        
+    }
+
+nav #subMenu #golf{
+   display: none;
+  
+
+}
+
+/* Nav end here */
+
+/* product start */
+
+#Product{
+    
+    margin-bottom: 0px;
+    
+}
+
+
+#productCategory{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    top: -80px;
+    margin: auto;
+    
+}
+
+.sec1{
+    display: inline-block;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sec1 div{
+    
+    display: inline-block;
+    justify-content: center;
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 10px;
+    
+}
+
+.sec1 #singIn{
+
+    position: relative;
+    margin-top: 0px;
+    height: 250px;
+    padding-top: 30px;
+
+}
+
+#pro2{
+    margin-bottom: 20px;
+}
+
+
+#pro3{
+   
+    display: inline;
+    justify-content: center;
+    width: 100%;
+   
+   
+   
+}
+
+
+#single{
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+   
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+
+#single a img{
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+}
